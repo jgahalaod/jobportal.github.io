@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu{
+    background-color: rgb(231, 213, 196);
+
+}
+
+.navbar-toggler{
+    border: 2px solid black;
+   
+}
+
+.navbar-nav a{
+    font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.nav-first{
+    margin-left: 200px;
+}
+.nav-item{
+    padding: 0 20px;
+}
+
+.post{
+    padding-left: 120px;
+}
+
+.cv-btn{
+    border: 2px solid black;
+    font-weight: 500;
+
+
+}
+.nav-link{
+    font-weight: 500;
+}
+.cv-btn:hover{
+     border: 2px solid black;
+     color: black;
+     background-color:#E7D5C4;
+     font-weight: 500;
+     transition: .5s ease;
+
+    
+}
+.dropdown-menu{
+    width: 130px;
+    padding: 0;
+    transition: all ease .4s;
+}
+.dropdown-menu .dropdown-item:hover{
+ background-color: #FF601D;
+ color: white;
+}
+.dropdown-item{
+    transition: all ease .4s;
+}
+
+.design{
+    padding: 100px 0 ;
+}
+.design_title{
+    font-family: Clash Grotesk;
+    font-size: 42px;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+.design_sub-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.design .span-one{
+    color: #FF601B;
+    font-weight: 500;
+
+}
+.design .span-two{
+    color: #FF601B;
+    font-weight: 500;
+
+}
+.mail{
+    /* border: 1px solid black; */
+    padding:18px 12px;
+    background-color: #FFB900;
+    border-radius: 8px;
+
+}
+.mail .mail_title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .mail .mail_sub-title{
+font-family: 'Manrope';
+font-weight: 400;
+font-size: 19px;
+padding: 10px 0;
+  }
+
+.mail .email{
+     display: flex;
+    position: relative;
+    width: 100%;
+    padding: 0 10px; !important
+}
+.email_add{
+    width: 100%;
+    margin-left: -10px;
+ 
+}
+.email_add input{
+    width: 100%;
+    height: 50px;
+    display: block;
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(44, 43, 43);
+    background-color: #FFB900;
+   
+
+   
+}
+.email_add input[type=text]:focus{
+    border: 2px solid rgb(44, 43, 43);
+    outline: none;  
+
+}
+.email_add input::placeholder{
+    font-size: 18px;
+    color: rgb(44, 43, 43);
+}
+.email_btn .btn{
+    background-color: #FF601B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    right: 25px;
+    top: 7px;
+}
+.email_btn .btn:hover{
+    background-color: #FF601B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+section{
+    padding: 50px 0;
+}
+.cards{
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px  #e5e2e2,  -3px -3px 6px  #e5e2e2;
+    padding: 4px 8px;
+    margin-bottom: 20px;
+
+}
+.card-head{
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.card-head > label{
+    display: block;
+    transition: all ease .4s;
+}
+.card-head > label:hover{
+    color:#FF601B;
+
+}
+.card-head > label:hover ~ i{
+    color:#FF601B;
+
+}
+.card-head .title{
+    display: none;
+}
+.card-head .title:checked ~ i{
+    transform: rotate(180deg);
+    color:#FF601B;
+}
+.card-head i{
+    position: absolute;
+    top: 6px;
+    right: 4px;
+    
+}
+
+.card-head .card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-body input[type="checkbox"]{
+    display: none;
+   
+}
+.card-body li >label,
+{
+    color: grey;
+}
+.card-body ul > span
+{
+    color: grey;
+
+}
+.card-body li > label::before{
+    content: "\2714";
+    border: 2px solid grey;
+    display: inline-block;
+    border-radius: 3px;
+    /* padding: 2px; */
+    font-size: 10px;
+    margin-right: 8px;
+    color:transparent;
+    transition: all ease .4s;
+    vertical-align:middle;
+  
+}
+.card-body li > input[type="checkbox"]:checked ~ label::before{
+    background-color: #f67b46;
+    border: 2px solid #f67b46 ;
+    color: #fff; !important
+    border: 2px solid #FF601B;
+}
+.card-body li span{
+    background-color: #f9dbd1;
+    color: grey;
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-size: 12px;
+    transition: all ease .4s;
+
+}
+.select{
+    display: block;
+}
+.all-select{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.all-select input[type="checkbox"]:checked ~ span{
+    background-color: #f67b46;
+    color: white;
+
+}
+.card-body ul{
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.card-body input[type=checkbox]:checked{
+    background-color: red;
+   
+}
+
+
+
+
+#card{
+    box-shadow: 2px 2px 12px  #e0dbdb;
+    border-radius: 6px;
+    border: 1px solid rgb(244, 239, 239);
+    padding: 28px 36px;
+}
+.card-slack_img{
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+}
+
+#card .card-img{
+    width: 40px;
+    height: 40px;
+    }
+    .card-slack{
+        position: relative;
+    }
+    .card-slack .star{
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    .card-slack_img h5{
+      font-size: 18px;
+    }
+    .card-slack_img p{
+        font-size: 12px;
+      }
+     #card .group{
+          padding-left: 12px;
+          line-height: 6px;
+      }
+    
+      .g span{
+          color: black;
+          font-size: 12px;
+          
+      }
+    
+      .card-slack_text-title{   
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+      }
+      .card-slack_btn{
+          margin-top: 20px;
+      }
+    .card-slack_btn ul{
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+    }
+    #card .btn{
+        padding: 8px 24px;
+    }
+    #card .btn-two{
+       margin-left: 10px;
+       border: 2px solid black;
+       color: black;
+    }
+
+    .browse{
+        width: 200px;
+        padding-top: 30px;
+        margin: auto;
+    }
+    .hero .job-btn{
+        color: white;
+        background: #FF601B;
+        border-radius: 8px;
+        font-family: 'Manrope';
+        font-size: 16px;
+        font-weight: 400;
+        padding: 8px 24px;
+        margin-top: 20px;
+        border: 2px solid #FF601B;
+        
+    }
+    .hero .job-btn:hover{
+        border: 2px solid #FF601B;
+        transition: .6s ease;
+        color: #FF601B;
+    }
+
+
+    
+.footer{
+    margin-top: 100px;
+    padding: 40px 20px;
+    background-color: #E7D5C4;
+}
+.footer-left{
+    padding-left: 50px;
+}
+.footer-left ul input[type="text"]:focus{
+    outline: none;
+  }
+.footer ul{
+    padding: 20px 0 0 0 ;
+    display: flex;
+    list-style: none;
+    margin-bottom: 30px;
+}
+.footer input{
+    padding: 6px 6px 6px 10px ;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.footer .btn{
+   background-color: #FF601B;
+   color: white;
+   margin-left: 20px;
+   padding: 7px 16px;
+}
+.footer .btn:hover{
+    background-color: #FF601B;
+    color: white;
+}
+.footer .contact {
+    margin-left: 120px;
+}
+.footer .contact-no
+{    margin-left: 50px;
+    font-weight: 600;
+
+}
+.footer .email{
+        font-weight: 600;
+   }
+.social-icon li{
+margin-right: 8px;
+width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+.social-icon a{
+    color: white;
+    text-align: center;
+    display: block;
+    line-height: 40px;    
+    }
+
+.footer-text h4{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.footer-text p{
+    font-size: 12px;
+}
+.copyright{
+    font-size: 12px;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+    
+    
+
+
+
+@media (max-width:576px)
+{
+
+    .menu{
+        padding: 10px 0;
+    }
+
+       .nav-first{
+        margin-left: 0;
+    }
+    .nav-item{
+        padding: 0;
+    }
+    .navbar-nav a{
+        font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: black;
+    }
+    .nav-item_btn{
+        padding-top: 10px;
+    }
+
+    .navbar-toggler:focus{
+        border: 2px solid black;
+        box-shadow: none;
+       
+    }
+    .design{
+        padding: 50px 0 ;
+    }
+    .design_title{
+        font-family: Clash Grotesk;
+        font-size: 42px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .footer-text{
+        padding-left: 10px;
+    }
+    .footer-left{
+        padding: 30px 0 0 5px;
+    }
+    
+    .footer-text p{
+        font-size: 12px;
+        margin: 0 ;
+    }
+    .footer-text h4{
+        font-size: 18px;
+        padding: 10px 0 0 0;
+    }
+    .footer .btn{
+        background-color: #FF601B;
+        color: white;
+        margin-left: 6px;
+        padding: 7px 16px;
+     }
+    
+
+
+}
